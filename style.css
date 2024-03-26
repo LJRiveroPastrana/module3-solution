@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+.card{
+    background-color: grey;
+    width: 350px;
+    margin: 15px;
+}   
+li{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+@media (min-width: 200px) and (max-width: 575px){
+    .card{
+        width: 80%;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .card{
+        width: 90%;
+    }
+}
+@media (min-width: 768px) { 
+.card{
+   width: 750px;
+}
+ }
+ @media (min-width: 992px) and (max-width: 1400px) {
+    .container{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+        align-items: center;
+     }
+     li{
+        display: none;
+     }
+ }
+
+
+
+
